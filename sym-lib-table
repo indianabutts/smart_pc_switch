@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Chaos_PowerManagement")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Chaos_PowerManagement.kicad_sym")(options "")(descr ""))
+  (lib (name "Chaos_MCUs")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Chaos_MCUs.kicad_sym")(options "")(descr ""))
+  (lib (name "Chaos_Branding")(type "KiCad")(uri "${KIPRJMOD}/assets/Chaos_Branding.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Chaos_SMD")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_SMD.pretty")(options "")(descr ""))
+  (lib (name "Chaos_MCUs")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_MCUs.pretty")(options "")(descr ""))
+  (lib (name "Chaos_Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_Connectors.pretty")(options "")(descr ""))
+)
