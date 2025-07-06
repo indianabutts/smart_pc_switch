@@ -1,0 +1,48 @@
+esphome:
+  name: spacecowboypower
+esp32:
+  board: seeed_xiao_esp32c6
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  password: "Flaynsr711"
+
+ota:
+  - platform: esphome
+    password: "Flaynsr711"
+
+wifi:
+  ssid: "75F4 Hyperoptic Fibre Broadband"
+  password: "JXxGszHe2tgx"
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Spacecowboypower"
+    password: "jrLdors1eBhJ"
+switch:
+  - platform: gpio
+    name: "PC Power"
+    id: scpower
+    pin: 
+      number: GPIO0
+      inverted: true
+    on_turn_on:
+    - delay: 500ms
+    - switch.turn_off: scpower
+  - platform: gpio
+    name: "PC Reset"
+    id: screset
+    pin: 
+      number: GPIO1
+      inverted: true
+    on_turn_on:
+    - delay: 500ms
+    - switch.turn_off: screset
+
+captive_portal:
+    
