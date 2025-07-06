@@ -26,7 +26,7 @@ wifi:
     password: "jrLdors1eBhJ"
 switch:
   - platform: gpio
-    name: "PC Power"
+    name: "Power Switch"
     id: scpower
     pin: 
       number: GPIO0
@@ -34,15 +34,12 @@ switch:
     on_turn_on:
     - delay: 500ms
     - switch.turn_off: scpower
+binary_sensor:
   - platform: gpio
-    name: "PC Reset"
-    id: screset
-    pin: 
-      number: GPIO1
-      inverted: true
-    on_turn_on:
-    - delay: 500ms
-    - switch.turn_off: screset
-
+    id: power_state
+    name: "PC Power"
+    pin:
+      number: GPIO2
+    device_class: power
 captive_portal:
     
