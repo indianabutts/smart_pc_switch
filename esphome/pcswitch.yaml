@@ -24,16 +24,32 @@ wifi:
   ap:
     ssid: "Spacecowboypower"
     password: "jrLdors1eBhJ"
-switch:
+
+output:
   - platform: gpio
-    name: "Power Switch"
     id: scpower
-    pin: 
+    pin:
       number: GPIO0
       inverted: true
-    on_turn_on:
-    - delay: 500ms
-    - switch.turn_off: scpower
+      
+switch:
+  - platform: template
+    name: "Power Switch"
+    lambda: |-
+      if (id(power_state).state){
+         return true;
+      } else {
+         return false;
+      }
+    turn_on_action:
+      - output.turn_on: scpower
+      - delay: 500ms
+      - output.turn_off: scpower
+    turn_off_action:
+      - output.turn_on: scpower
+      - delay: 500ms
+      - output.turn_off: scpower
+        
 binary_sensor:
   - platform: gpio
     id: power_state
