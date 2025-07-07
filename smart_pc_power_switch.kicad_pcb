@@ -1956,7 +1956,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3d23faa6-b7eb-41ed-9949-afffb3bf93d2")
+			(uuid "34e6b045-52e1-40f5-b3aa-3629354ca62f")
 		)
 		(fp_line
 			(start -7.2116 10.4395)
@@ -1966,7 +1966,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dd984af5-864d-4a5c-8c0e-40943bf6e5dd")
+			(uuid "9175c955-6d40-4e83-a9c5-9e46a43cbeba")
 		)
 		(fp_line
 			(start -4.7216 -10.5155)
@@ -1976,7 +1976,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fbb5543d-ac3c-41fb-a766-fab13f45189c")
+			(uuid "5b9d4072-847b-4ded-bdb4-f814fa40623e")
 		)
 		(fp_line
 			(start -4.217872 -12.0255)
@@ -1986,7 +1986,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3a02c25a-197c-428b-91bd-b665b07e9e8e")
+			(uuid "a995e4db-b21d-4dfb-bd47-3804b84f3675")
 		)
 		(fp_line
 			(start 4.2774 -11.5255)
@@ -1996,7 +1996,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8b886d2b-a04f-4f0c-9a38-a90940294281")
+			(uuid "dfebba6a-898e-44ea-b984-1aa4a1a30612")
 		)
 		(fp_line
 			(start 6.7584 -10.5155)
@@ -2006,7 +2006,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0988d232-1f11-4029-8521-0f10e0902d51")
+			(uuid "8f024bd3-ba53-4941-bca2-1360964041dd")
 		)
 		(fp_line
 			(start 8.6634 8.5345)
@@ -2016,7 +2016,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ae97b004-8522-4091-91ff-31a23c078e90")
+			(uuid "5a0ad11a-6282-4e65-82f9-30d22ccdd2b9")
 		)
 		(fp_arc
 			(start -9.1166 -8.6145)
@@ -2027,7 +2027,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8510e855-7c41-42a5-b4bc-dc2363dc9870")
+			(uuid "f59d4535-4e30-4447-b775-05822170c134")
 		)
 		(fp_arc
 			(start -7.2116 10.4395)
@@ -2038,7 +2038,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e8dd73f1-4600-49f8-8422-189a1a1f5ce8")
+			(uuid "6838d038-75f1-405d-90a5-362c1e2c3719")
 		)
 		(fp_arc
 			(start -4.717872 -11.525772)
@@ -2049,7 +2049,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1d0d6758-c0b0-48d5-8009-0aaf6b8d5a80")
+			(uuid "0ff43dc2-8b48-4d5e-9100-8200a3b7d710")
 		)
 		(fp_arc
 			(start 3.7774 -12.0255)
@@ -2060,7 +2060,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9661d0e3-ee9f-40da-8311-6b56b0b710c2")
+			(uuid "a3ac93f5-d0d8-49a9-b5ad-5bd16c6a6d94")
 		)
 		(fp_arc
 			(start 6.7584 -10.5155)
@@ -2071,7 +2071,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "58b022db-4ad3-4d2a-8120-7976899f1350")
+			(uuid "6b4ce5e4-e289-4ecb-9caa-836a731b0272")
 		)
 		(fp_arc
 			(start 8.6634 8.5345)
@@ -2082,7 +2082,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e19de99b-b0fe-42ed-a183-f10daaee81e1")
+			(uuid "0fcb0823-3877-4724-ab33-6fca50708416")
 		)
 		(fp_circle
 			(center -9.3266 -10.0995)
@@ -2093,7 +2093,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "97be38eb-fdcd-424a-a5ad-097a6d3ba33c")
+			(uuid "423029b5-43e6-4601-b7df-0a312b00a77b")
 		)
 		(fp_circle
 			(center -8.0526 -9.3825)
@@ -2104,7 +2104,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "73fe4c27-6cab-422d-9b34-7b6d10c1c28b")
+			(uuid "c77c4c76-1a7f-4be8-87a9-6c298cfd84df")
 		)
 		(fp_rect
 			(start 8.6834 10.5215)
@@ -2115,7 +2115,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "da69f362-16fe-484a-b3a4-a14247108f50")
+			(uuid "75c7b9b0-a1df-40ae-a165-c61cfbae7f8f")
 		)
 		(fp_rect
 			(start -9.1166 -10.4785)
@@ -2126,7 +2126,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "492a1944-7a2f-4389-94f6-dd2fed04d7e8")
+			(uuid "41093472-2937-414b-b0d4-bf64ada360c0")
 		)
 		(fp_circle
 			(center -8.0326 -9.3785)
@@ -2137,7 +2137,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "71af2d30-feed-485c-99dc-2ada87e3b0f0")
+			(uuid "0accb4f5-b7b7-4655-a1e1-3325ddbc4d45")
 		)
 		(pad "1" smd roundrect
 			(at -8.2816 -7.5985)
@@ -2404,6 +2404,17 @@
 			(uuid "8a17f667-92dd-45d9-b670-5b0b871d4c14")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/project_libs/seeed-studio-xiao-esp32c6-v2.step"
+			(offset
+				(xyz 6 -1.8 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm"
 		(layer "B.Cu")
