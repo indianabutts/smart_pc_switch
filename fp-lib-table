@@ -3,4 +3,5 @@
   (lib (name "Chaos_SMD")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_SMD.pretty")(options "")(descr ""))
   (lib (name "Chaos_MCUs")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_MCUs.pretty")(options "")(descr ""))
   (lib (name "Chaos_Connectors")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Chaos_Connectors.pretty")(options "")(descr ""))
+  (lib (name "seeed_studio_xiao")(type "KiCad")(uri "${KIPRJMOD}/project_libs/seeed_studio_xiao.pretty")(options "")(descr ""))
 )

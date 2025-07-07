@@ -3,4 +3,5 @@
   (lib (name "Chaos_PowerManagement")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Chaos_PowerManagement.kicad_sym")(options "")(descr ""))
   (lib (name "Chaos_MCUs")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Chaos_MCUs.kicad_sym")(options "")(descr ""))
   (lib (name "Chaos_Branding")(type "KiCad")(uri "${KIPRJMOD}/assets/Chaos_Branding.kicad_sym")(options "")(descr ""))
+  (lib (name "Seeed_Studio_XIAO_Series")(type "KiCad")(uri "${KIPRJMOD}/project_libs/Seeed Studio XIAO Series Library/Seeed_Studio_XIAO_Series.kicad_sym")(options "")(descr ""))
 )
