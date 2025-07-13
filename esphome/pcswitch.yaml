@@ -18,11 +18,12 @@ logger:
 api:
 
 ota:
+
   - platform: esphome
     password: "Flaynsr711"
-wifi:
+
   # Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
+ap:
     password: "ghost123"
 captive_portal:
 
