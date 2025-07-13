@@ -1,5 +1,6 @@
 esphome:
   name: spacecowboypower
+
   friendly_name: "Smart PC Power Switch"
   name_add_mac_suffix: true
 
@@ -18,12 +19,12 @@ logger:
 api:
 
 ota:
-
   - platform: esphome
-    password: "Flaynsr711"
+    password: Flaynsr711
 
+wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
-ap:
+  ap:
     password: "ghost123"
 captive_portal:
 
