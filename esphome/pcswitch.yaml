@@ -1,5 +1,11 @@
 esphome:
   name: spacecowboypower
+  friendly_name: "Smart PC Power Switch"
+  name_add_mac_suffix: true
+
+  project:
+    name: chaos-engine.pcpower
+    version: "0.2-20250731"
 esp32:
   board: seeed_xiao_esp32c6
   framework:
@@ -10,21 +16,21 @@ logger:
 
 # Enable Home Assistant API
 api:
-  password: "Flaynsr711"
 
 ota:
   - platform: esphome
     password: "Flaynsr711"
-
 wifi:
-  ssid: "75F4 Hyperoptic Fibre Broadband"
-  password: "JXxGszHe2tgx"
-
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Spacecowboypower"
-    password: "jrLdors1eBhJ"
+    password: "ghost123"
+captive_portal:
 
+# This should point to the public location of this yaml file.
+dashboard_import:
+  package_import_url: github://indianabutts/smart_pc_switch/esphome/pcswitch.yaml@v6
+  import_full_config: false # or true
+  
 output:
   - platform: gpio
     id: scpower
@@ -43,7 +49,6 @@ switch:
       }
     turn_on_action:
       - output.turn_on: scpower
-      - delay: 500ms
       - output.turn_off: scpower
     turn_off_action:
       - output.turn_on: scpower
@@ -67,5 +72,4 @@ binary_sensor:
     pin:
       number: GPIO2
     device_class: power
-captive_portal:
     
