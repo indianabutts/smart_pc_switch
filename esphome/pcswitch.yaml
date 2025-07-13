@@ -49,6 +49,16 @@ switch:
       - output.turn_on: scpower
       - delay: 500ms
       - output.turn_off: scpower
+  - platform: template
+    name: "Force Shutdown"
+    turn_on_action:
+      - output.turn_on: scpower
+      - logger.log: "Waiting for Computer to turn off"
+      - wait_until:
+          binary_sensor.is_off: power_state
+      - output.turn_off: scpower
+      - logger.log: "Force Shutdown Complete"
+    
         
 binary_sensor:
   - platform: gpio
