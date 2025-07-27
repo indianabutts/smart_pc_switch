@@ -6,7 +6,7 @@ esphome:
 
   project:
     name: chaos-engine.pcpower
-    version: "0.2-20250731"
+    version: "0.3-20250727"
 esp32:
   board: seeed_xiao_esp32c6
   framework:
@@ -38,7 +38,7 @@ output:
     id: scpower
     pin:
       number: GPIO0
-      inverted: true
+      inverted: false
       
 switch:
   - platform: template
